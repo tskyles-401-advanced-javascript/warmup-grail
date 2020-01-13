@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: red;
+}
+
+nav {
+  background-color: blue;
+}
+
+aside {
+  background-color: green;
+}
+
+footer {
+  background-color: yellow;
+}
+
