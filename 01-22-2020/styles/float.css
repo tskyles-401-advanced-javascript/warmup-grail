@@ -1,0 +1,69 @@
+.grid {
+  min-width: 550px;
+  text-align: center;
+  color: white;
+}
+
+header {
+  padding: 50px;
+  background-color: #6773Be;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+  width: 100%;
+  background-color: #D49391;
+}
+
+.left {
+  padding: 50px;
+  width: 100%;
+  background-color: #7dc1b2;
+}
+
+.right {
+  padding: 50px;
+  width: 100%;
+  background-color: #9DC171;
+}
+
+footer {
+  padding: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #805990;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    padding-left: 200px;   /* LC width */
+    padding-right: 150px;  /* RC width */
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    float: left;
+  }
+
+  .left {
+    position: relative;
+    width: 150px;   
+    right: 200px;          
+    margin-left: -100px;
+    float: left;
+  }
+
+  .right {
+    position: relative;
+    width: 150px; 
+    margin-right: -250px; 
+    float: left;
+  }
+
+  footer {
+    clear: both;
+  }
+}
