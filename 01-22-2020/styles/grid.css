@@ -1,0 +1,46 @@
+.grid {
+  text-align: center;
+}
+
+.left,
+.right,
+.content {
+  height: 50px;
+  text-align: center;
+}
+
+header {
+  height: 100%;
+  background-color: #6773Be;
+}
+
+.left {
+  height: 100%;
+  background-color: #7dc1b2;
+}
+
+.content {
+  background-color: #d49391;
+  height: 100%;
+}
+
+.right {
+  height: 100%;
+  background-color: #9dc171;
+}
+
+footer {
+  background-color: #a76cbe;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: repeat(3, 250px);
+  }
+
+  header, footer {
+    grid-column: 1 / 4;
+  }
+}
