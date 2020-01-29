@@ -37,30 +37,34 @@ footer {
 }
 
 @media (min-width: 700px) {
-  .grid {
+  /* .grid {
     padding-left: 200px;   /* LC width */
     padding-right: 150px;  /* RC width */
-  }
-
-  .content {
+  } */
+  header {
     position: relative;
     width: 100%;
-    float: left;
+    float: none;
+  }
+  .content {
+    position: relative;
+    width: 43%;
+    float: none;
+    margin-left: 25.5%;
+    
   }
 
   .left {
     position: relative;
-    width: 150px;   
-    right: 200px;          
-    margin-left: -100px;
+    width: 25%;   
     float: left;
   }
 
   .right {
     position: relative;
-    width: 150px; 
-    margin-right: -250px; 
-    float: left;
+    width: 25%; 
+    margin-right: -100px; 
+    float: right;
   }
 
   footer {
