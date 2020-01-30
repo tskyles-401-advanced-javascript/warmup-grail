@@ -40,23 +40,24 @@ header {
     float: left;
     width: 25%;
     height: 300px;
+    margin-top: 0;
   }
   article {
     background-color: orange;
     float: left;
-    padding: 0px, 10px;
+    margin: 0px;
     width: 50%;
     height: 300px;
   }
   .right {
     background-color: red;
-    float: left;
+    float: right;
     width: 25%;
     height: 300px;
   }
   footer {
-    clear: both;
     background-color: green;
+    float: right;
     height: 125px;
     width: 100%;
   }
