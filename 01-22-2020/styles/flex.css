@@ -7,7 +7,7 @@
 
 header {
   padding: 50px;
-  background-color: #6773Be;
+  background-color: purple;
   width: 100%;
   text-align: center;
 }
@@ -15,26 +15,26 @@ header {
 .content {
   padding: 50px;
   width: 100%;
-  background-color: #D49391;
+  background-color: orange;
 }
 
 .left {
   padding: 50px;
   width: 100%;
-  background-color: #7dc1b2;
+  background-color: blue;
 }
 
 .right {
   padding: 50px;
   width: 100%;
-  background-color: #9DC171;
+  background-color: right;
 }
 
 footer {
   padding: 50px;
   width: 100%;
   text-align: center;
-  background-color: #805990;
+  background-color: green;
 }
 
 @media (min-width: 700px) {
